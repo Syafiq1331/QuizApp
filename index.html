@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Quiz App</title>
+</head>
+
+<body>
+    <div id="opening-window">
+        <h1>Selamat bermain !</h1>
+        <p>
+            Simple Quiz Game yang dibuat dengan Native Javascript. <br>
+            made with <span><a href="https://www.github.com/syafiq1331">Syafiq &hearts;</a></span>
+
+        </p>
+        <button onclick="startQuiz()">
+            <p>Play Game</p>
+        </button>
+    </div>
+
+    <div id="quiz-window" class="hidden">
+        <h1 id="question"></h1>
+
+        <input type="radio" name="choices" data-id="0" id="choice0">
+        <label for="choice0" id="choiceText0"></label>
+
+        <input type="radio" name="choices" data-id="1" id="choice1">
+        <label for="choice1" id="choiceText1"></label>
+
+        <input type="radio" name="choices" data-id="2" id="choice2">
+        <label for="choice2" id="choiceText2"></label>
+
+        <input type="radio" name="choices" data-id="3s" id="choice3">
+        <label for="choice3" id="choiceText3"></label>
+        <button onclick="nextQuestion()">Next</button>
+    </div>
+
+    <div id="closing-window" class="hidden">
+        <h1>Quiz Selesai</h1>
+        <h2 id="scoreText"></h2>
+
+        <button> <a href="./index.html">
+                <p>Mulai ulang lagi ? </p>
+            </a></button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

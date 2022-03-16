@@ -1,0 +1,49 @@
+body {
+    background-color: #20243d;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#opening-window {
+    margin-top: 18%;
+    text-align: center;
+}
+
+#opening-window>p>span>a {
+    text-decoration: none;
+    color: rgb(250, 81, 81);
+}
+
+#quiz-window {
+    margin-top: 18%;
+    text-align: center;
+}
+
+#closing-window {
+    margin-top: 18%;
+    text-align: center;
+}
+
+#closing-window>button>a {
+    text-decoration: none;
+    color: black;
+}
+
+#closing-window>button>a>p {
+    padding: 5px;
+
+}
+
+input[type="radio"] {
+    visibility: hidden;
+}
+
+input[type="radio"]:checked+label {
+    background-color: salmon;
+    border: 1px solid black;
+    padding: 3px;
+    color: black;
+}
