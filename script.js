@@ -1,28 +1,28 @@
 // Question
 const DB_Quiz = [{
-        question: "1 + 1 = ? str",
-        answer: ['11', '2', '22', '0']
-    },
-    {
-        question: "Sop dibalik ?",
-        answer: ['Pos', 'Ops', 'Spo', 'Tumpah']
-    },
-    {
-        question: "Programmer itu ?",
-        answer: ['lemah', 'Cengeng', 'Tangguh', 'Apa?']
-    },
-    {
-        question: "Apa itu javascript ?",
-        answer: ['Nothing', 'Bahasa native', 'bahasa English', 'bahasa pemprograman']
-    },
-    {
-        question: "Sebutkan bahasa pemprograman?",
-        answer: ['HTML', 'CSS', 'Golang', 'Markdown']
-    }
+    question: "Di bawah ini merupakan tag javascript yang dapat disisipkan pada dokumen HTML",
+    answer: ['<js>', '<javascript>', '<script>', '<jquery>']
+},
+{
+    question: "Di bawah adalah sintak javascript untuk mengambil elemen HTML secara spesifik pada atribut ID",
+    answer: ['document.getElementById(“demo”);', 'document.getElementByName(“demo”);', 'document.getElementsByClassName(“demo”);', 'document.getElementsByTagName(“demo”);']
+},
+{
+    question: "Kita dapat menambahkan sintak javascript dalam dokumen HTML pada bagian",
+    answer: ['Di dalam tag <head>', 'Di dalam tag <body>', 'Bisa di dalam tag <head> maupun<body>', 'Tidak bisa keduanya']
+},
+{
+    question: "Berikut sintak yang benar untuk menulis kalimat Hello World",
+    answer: ['document.line(“Hello Wordl”)', 'document.show(“Hello Wordl”)', 'document.alert(“Hello Wordl”)', 'document.write(“Hello Wordl”)']
+},
+{
+    question: "Bagaimana membuat komentar di javascript",
+    answer: ['<!–ini komentar–>', '*ini komentar*', '//ini komentar', '/* ini komentar */']
+}
 ]
 
 // Answer
-const Correct_Answer = [1, 0, 2, 3, 2];
+const Correct_Answer = [2, 0, 2, 3, 2];
 
 // Event
 
